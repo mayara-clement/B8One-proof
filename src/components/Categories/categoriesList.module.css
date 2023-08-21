@@ -1,0 +1,26 @@
+.categoriesList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: var(--bg-slate-100, #f1f5f9);
+  height: 56px;
+}
+
+.categoriesList ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoriesList ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 24px;
+  color: var(--text-slate-600, #475569);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}

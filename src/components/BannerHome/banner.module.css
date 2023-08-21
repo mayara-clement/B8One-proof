@@ -1,0 +1,46 @@
+.bannerHome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.bannerHomeOver{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+
+.bannerHomeOver > div,
+.bannerHome > div {
+  width: 100%;
+}
+
+.bannerHomeOver img,
+.bannerHome img {
+  max-width: 1408px;
+  max-height: 400px;
+}
+
+.titleFlag {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-green-300, #86efac);
+  color: var(--text-slate-900, #0f172a);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  height: 48px;
+  margin-bottom: 12px;
+  gap: 10px;
+}

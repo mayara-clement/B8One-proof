@@ -1,0 +1,33 @@
+.header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px;
+}
+
+.logo {
+  max-width: 218px;
+  height: 32px;
+}
+
+.login {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--text-slate-900, #0f172a);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  border-right: 1px solid var(--border-slate-300, #cbd5e1);
+  padding-right: 32px;
+}
+
+.login div {
+  font-size: 24px;
+}

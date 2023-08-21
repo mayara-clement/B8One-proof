@@ -1,0 +1,28 @@
+.listDiscount {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 52px;
+}
+
+.listDiscount ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--border-slate-200, #E2E8F0);
+  padding-bottom: 32px
+}
+
+.listDiscount ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 24px;
+  color: var(--text-slate-600, #475569);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  gap: 12px;
+}
